@@ -1,0 +1,49 @@
+img {
+    height: 300px;
+    width: 300px;
+
+}
+
+#kfc {
+    left: 400px;
+    top: 220px;
+    animation-name: kfc;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes kfc {
+    from {
+        top: 600px;
+    }
+
+    to {
+        top: 220px;
+    }
+}
+
+#mc {
+    left: 800px;
+    top: 220px;
+    animation-name: mc;
+    animation-duration: 4s;
+    position: relative;
+}
+@keyframes mc {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 220px;
+    }
+}
+
+
+body
+{background-color: black;}
+
+.apam{
+    justify-content: center;
+    align-items: center;
+}
